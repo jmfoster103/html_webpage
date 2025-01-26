@@ -13,33 +13,100 @@ hr{
     margin-bottom: 20px;
 }
 .row {
-    width: 100%;
-    height: 300px;
-    padding-bottom: 300px;
+    width: 90%;
+    height: auto;
 }
 .flex-row{
+    margin-left: 5%;
+    margin-right: 25%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
-.image{
+image{
     align-self: auto;
     height: auto;
-    width: 60%;
 }
 .text{
     align-self: auto;
     text-align: center;
     font-size: x-large;
 }
-.h1{
-    font-size: xx-large;
+h1{
+    font-size: 45;
     vertical-align: middle;
 }
-.h2{
+h2{
     font-size: x-large;
 }
-.h3{
+h3{
     font-size: larger;
+}
+.title{
+    text-align: center;
+    align-self: center;
+    font-size: xx-large;
+    color: maroon;
+    text-shadow: 2px;
+}
+p{
+    text-indent: 4%;
+    font-size: x-large;
+}
+.textbox{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.subtext{
+    width: 50%;
 }
 </style>
 
+<body>
+    <div class="title"> 
+        <h1>Technical Experience</h1>
+    </div>
+
+    <hr>
+    <div class="textbox">
+        <p>Through my time at Texas A&M, I have been able to experience many different technical opportunities in my classes, 
+            that have allowed me to grow in my skills. These include classes and projects in Electrical Engineering, as well as 
+            various software projects. Below are some examples of what I have worked on, and others that I would like to work 
+            on in the future:
+        </p>
+    </div>
+    <hr>
+    <div class="row flex-row">
+        <div>
+            <h2 class="underline">Computer Science Related Projects</h2>
+            <h3>C++ Projects</h3>
+            <p class="subtext">I have completed multiple classes in C++, and have completed projects testing my skills in them, 
+            such as various sorting algorithms.</p>
+            <h3>HTML and CSS Projects</h3>
+            <p class="subtext">I have started working on multiple HTML and CSS webpages, including this one, and I plan on 
+                continuing to work and grow my skills in these topics.</p>
+            <h2 class="underline">Electrical Engineering Related Projects</h2>
+            <h3>Circuit related problems</h3>
+            <p class="subtext">Through my Electrical Engineering class work, I have gained experience with building and
+                designing circuits.</p>
+            <h3>VLSI Systems</h3>
+            <p class="subtext">I have started to learn about VLSI systems, and am very interested in continuing my knowledge
+                around this topic. I also hope to complete more projects based in the world of VLSI</p>
+        </div>
+        <div>
+            <img src="c++.png" width="200px" height="auto" style="padding-bottom: 15px;"><br>
+            <img src="html.png" width="200px" height="auto" style="padding-bottom: 15px;"><br>
+            <img src="circuit.png" width="200px" height="auto" style="padding-bottom: 15px;"><br>
+            <img src="vlsi.png" width="200px" height="auto" style="padding-bottom: 15px;"><br>
+        </div>
+    </div>
+
+    <hr>
+    <div class="text">
+        <h2><a href="index.html">Link to Home!</a></h2>
+    </div>
+</body>

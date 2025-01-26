@@ -13,32 +13,100 @@ hr{
     margin-bottom: 20px;
 }
 .row {
-    width: 100%;
-    height: 300px;
-    padding-bottom: 300px;
+    width: 90%;
+    height: auto;
 }
 .flex-row{
+    margin-left: 5%;
+    margin-right: 25%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
-.image{
+image{
     align-self: auto;
     height: auto;
-    width: 60%;
 }
 .text{
     align-self: auto;
     text-align: center;
     font-size: x-large;
 }
-.h1{
-    font-size: xx-large;
+h1{
+    font-size: 45;
     vertical-align: middle;
 }
-.h2{
+h2{
     font-size: x-large;
 }
-.h3{
+h3{
     font-size: larger;
 }
+.title{
+    text-align: center;
+    align-self: center;
+    font-size: xx-large;
+    color: maroon;
+    text-shadow: 2px;
+}
+p{
+    text-indent: 4%;
+    font-size: x-large;
+}
+.textbox{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.subtext{
+    width: 50%;
+}
+.pdf{
+    width: 90%;
+    aspect-ratio: 4/3;
+    margin-left: 5%;
+}
+.center{
+    text-align: justify;
+
+}
 </style>
+
+<body>
+    <div class="title"> 
+        <h1>Highly Qualified</h1>
+    </div>
+    <hr>
+
+    <div class="textbox">
+        <p>As a Computer Engineering Undergrad at Texas A&M, I have become a very qualified candidate for many different types of 
+            jobs. I have completed all of my classes, while maintaining a high GPA, as well as doing multiple other activities and 
+            extra-curriculars. I have also developed many technical skills that can be utilized in a professional setting.
+            Attached below is my resume:
+        </p>
+    </div>
+    <hr>
+    <iframe class="pdf" src="https://drive.google.com/file/d/1s1dtOS5WfOGBhLXPDr6aKsE_3Hxz3noC/preview" width="640" height="480" allow="autoplay"></iframe>
+    <hr>
+
+    <div class = "title">
+        <h1>Technical Skills</h1>
+    </div>
+        <div class="textbox center">
+            <h2 class="underline">Technical Skills</h2>
+            <h3>C++ ~ Through my classwork, I have become proficient in C++, and have learned how to code many different tasks in this language</h3>
+            <h3>Data Structures and Algorithms ~ I have learned how to use different data structures to make efficient programs.</h3>
+            <h3>Circuitry ~ I have leaned how to solve many differnt types of circuits, and working with the different laws of circuits.</h3>
+            <h3>Fourier Series and Waves ~ I have learned how to use the Fourier Transformation to convert RLC circuits into useful frequencies and develop better circuits.</h3>
+            <h2 class="underline">Technical Interests</h2>
+            <h3>VLSI Systems ~ I would be very interested in learning how to optimize VLSI systems, and learning the ins and outs of these systems</h3>
+            <h3>Microprocessor Design ~ I would also love to learn how to more efficiently design Microprocessors. This is something that can always be more optimized, and I want to be able to help with that.</h3>
+        </div>
+
+        <div class="text">
+            <h2><a href="index.html">Link to Home!</a></h2>
+        </div>
+</body>
